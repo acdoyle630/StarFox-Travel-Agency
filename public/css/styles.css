@@ -1,0 +1,93 @@
+#front-nav {
+  display: flex;
+  background-color: #333333;
+  justify-content: space-around; }
+  #front-nav #front-nav-image {
+    display: flex;
+    font-size: 75px;
+    color: #99cccc; }
+    #front-nav #front-nav-image #front-nav-logo {
+      display: flex;
+      height: 75px;
+      -webkit-filter: invert(100%); }
+  #front-nav #hamburger {
+    display: flex;
+    height: 15px;
+    margin: 1px; }
+
+body {
+  margin: 0; }
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  background-color: #99cccc; }
+  #hero #hero-image {
+    display: flex;
+    justify-content: center; }
+    #hero #hero-image #hero-image-logo {
+      height: 470px; }
+  #hero #hero-text {
+    font-size: 75px;
+    padding: 100px; }
+  #hero #hero-button {
+    display: flex;
+    justify-content: center; }
+  #hero #hero-button-press {
+    width: 90%;
+    height: 200px;
+    margin: 45px;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 75px; }
+
+#to-the-moon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff; }
+  #to-the-moon #to-the-moon-deal-1 {
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    margin: 50px;
+    width: 80%; }
+    #to-the-moon #to-the-moon-deal-1 #to-the-moon-deal-1-banner {
+      color: #ffffff;
+      font-size: 75px;
+      font-weight: bold; }
+    #to-the-moon #to-the-moon-deal-1 #to-the-moon-deal-1-price {
+      color: #ffffff;
+      font-size: 125px;
+      text-decoration: underline; }
+    #to-the-moon #to-the-moon-deal-1 #to-the-moon-deal-1-content {
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      padding: 5px; }
+  #to-the-moon #to-the-moon-deal-2 {
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    margin: 5px;
+    width: 80%; }
+    #to-the-moon #to-the-moon-deal-2 #to-the-moon-deal-2-banner {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: bold; }
+    #to-the-moon #to-the-moon-deal-2 #to-the-moon-deal-2-price {
+      color: #ffffff;
+      font-size: 18px;
+      text-decoration: underline; }
+    #to-the-moon #to-the-moon-deal-2 #to-the-moon-deal-2-content {
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      padding: 5px; }
+
+#more-deals {
+  background-color: #99cccc; }

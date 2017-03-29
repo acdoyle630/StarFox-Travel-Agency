@@ -1,0 +1,20 @@
+#front-nav{
+  display:flex;
+  background-color: $grey;
+  justify-content: space-around;
+  #front-nav-image{
+    display: flex;
+    font-size: 75px;
+    color: $light-blue;
+    #front-nav-logo{
+      display: flex;
+      height:75px;
+      -webkit-filter: invert(100%)
+    }
+  }
+  #hamburger{
+    display: flex;
+    height:15px;
+    margin:1px;
+  }
+}
