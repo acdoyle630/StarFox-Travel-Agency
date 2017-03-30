@@ -1,15 +1,23 @@
 #front-nav{
+
   display:flex;
   background-color: $grey;
   justify-content: space-around;
+  @media #{$medium}{
+    background-color: $light-blue;
+    flex-direction: column;
+  }
   #front-nav-image{
     display: flex;
     font-size: 60px;
     color: $light-blue;
     #front-nav-logo{
-      display: flex;
       height:60px;
-      -webkit-filter: invert(100%)
+      -webkit-filter: invert(100%);
+      @media #{$medium}{
+        height: 120px;
+        padding-left: 50%
+      }
     }
   }
   #hamburger{
@@ -17,4 +25,22 @@
     height:60px;
     margin:5px;
   }
+  #front-nav-dropdown-bar{
+    @media #{$medium}{
+      align-content: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color:black;
+      color: $main;
+      width: 80%;
+      visibility: initial;
+    }
+  }
 }
+
+/* @media screen and (min-width: 965px) {
+  #front-nav{
+    background-color:red;
+  }
+} */

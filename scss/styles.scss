@@ -3,6 +3,9 @@ $light-grey: #666666;
 $light-blue: #99cccc;
 $main: #ffffff;
 $grey:#333333;
+$small: "only screen and (min-width:0px) and (max-width:600px)";
+$medium: "only screen and (min-width:601px) and (max-width:965px)";
+$large: "only screen and (min-width: 966px)";
 
 @import "partials/front-nav";
 @import "partials/hero";
@@ -13,10 +16,6 @@ $grey:#333333;
 body{
   margin:0;
 }
-
-
-
-
 
 
 
