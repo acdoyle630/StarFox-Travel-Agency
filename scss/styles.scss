@@ -6,6 +6,10 @@ $grey:#333333;
 
 @import "partials/front-nav";
 @import "partials/hero";
+@import "partials/to-the-moon";
+@import "partials/more-deals";
+@import "partials/footer";
+
 body{
   margin:0;
 }
@@ -13,85 +17,6 @@ body{
 
 
 
-#to-the-moon{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: $main;
-  #to-the-moon-deal-1{
-    background-color: $light-grey;
-    display: flex;;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-    width:80%;
-  #to-the-moon-deal-1-banner{
-    color:$main;
-    font-size: 40px;
-    padding: 50px;
-    font-weight: bold;
-  }
-  #to-the-moon-deal-1-price{
-    color: $main;
-    font-size: 80px;
-    padding: 20px;
-    text-decoration: underline;
-  }
-  #to-the-moon-deal-1-content{
-    color: $main;
-    font-size: 30px;
-    text-align: center;
-    padding:20px
-      }
-  }
-  #to-the-moon-deal-2{
-    background-color: $light-grey;
-    display: flex;;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-    width:80%;
-    #to-the-moon-deal-2-banner{
-      color:$main;
-      font-size: 40px;
-      padding: 50px;
-      font-weight: bold;
-      }
-    #to-the-moon-deal-2-price{
-      color: $main;
-      font-size: 80px;
-      padding: 20px;
-      text-decoration: underline;
-      }
-    #to-the-moon-deal-2-content{
-     color: $main;
-    font-size: 30px;
-    text-align: center;
-    padding:20px
-    }
-  }
-}
-
-#more-deals{
-  background-color: $light-blue;
-  display: flex;
-  justify-content: center;
-  #more-deals-text{
-    color:$main;
-    font-size: 30px;
-    padding:10px;
-  }
-  #more-deals-button{
-    padding:10px;
-  }
 
 
-}
 
-#footer{
-  background-color: grey;
-  font-size: 30px;
-  text-align: center;
-  padding:30px;
-
-}

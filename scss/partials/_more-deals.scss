@@ -1,0 +1,13 @@
+#more-deals{
+  background-color: $light-blue;
+  display: flex;
+  justify-content: center;
+  #more-deals-text{
+    color:$main;
+    font-size: 35px;
+    padding:10px;
+  }
+  #more-deals-button{
+    padding:10px;
+  }
+}
