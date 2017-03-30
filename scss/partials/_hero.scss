@@ -2,21 +2,39 @@
   display: flex;
   flex-direction: column;
   background-color: $light-blue;
+  @media #{$medium}{
+    background-color: $main;
+  }
   #hero-image{
     display: flex;
     justify-content: center;
     #hero-image-logo{
       height:300px;
+      @media #{$medium}{
+
+      }
     }
   }
   #hero-text{
     font-size: 50px;
     padding-left:10%;
     padding-right:10%;
+    @media#{$medium}{
+      background-color: $light-blue;
+      padding:10%;
+      margin-left: 2%;
+      margin-right: 2%;
+
     }
+  }
   #hero-button{
     display: flex;
     justify-content: center;
+    @media#{$medium}{
+      background-color: $light-blue;
+      margin-left: 2%;
+      margin-right:2%;
+    }
   }
   #hero-button-press{
     width: 80%;
