@@ -4,17 +4,17 @@
   justify-content: space-around;
   #front-nav-image{
     display: flex;
-    font-size: 75px;
+    font-size: 60px;
     color: $light-blue;
     #front-nav-logo{
       display: flex;
-      height:75px;
+      height:60px;
       -webkit-filter: invert(100%)
     }
   }
   #hamburger{
     display: flex;
-    height:15px;
-    margin:1px;
+    height:60px;
+    margin:5px;
   }
 }

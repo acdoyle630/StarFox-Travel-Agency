@@ -1,0 +1,29 @@
+#hero{
+  display: flex;
+  flex-direction: column;
+  background-color: $light-blue;
+  #hero-image{
+    display: flex;
+    justify-content: center;
+    #hero-image-logo{
+      height:300px;
+    }
+  }
+  #hero-text{
+    font-size: 50px;
+    padding-left:10%;
+    padding-right:10%;
+    }
+  #hero-button{
+    display: flex;
+    justify-content: center;
+  }
+  #hero-button-press{
+    width: 80%;
+    height: 120px;
+    margin: 100px;
+    background-color: $light-grey;
+    color: $main;
+    font-size: 18px;
+  }
+}

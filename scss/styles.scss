@@ -5,68 +5,43 @@ $main: #ffffff;
 $grey:#333333;
 
 @import "partials/front-nav";
+@import "partials/hero";
 body{
   margin:0;
 }
 
 
-#hero{
-  display: flex;
-  flex-direction: column;
-  background-color: $light-blue;
-  #hero-image{
-    display: flex;
-    justify-content: center;
-    #hero-image-logo{
-      height:470px;
-    }
-  }
-  #hero-text{
-    font-size: 75px;
-    padding: 100px;
-  }
-  #hero-button{
-    display: flex;
-    justify-content: center;
-  }
-  #hero-button-press{
-    width: 90%;
-    height: 200px;
-    margin: 45px;
-    background-color: $light-grey;
-    color: $main;
-    font-size: 75px;
-  }
-}
+
 
 #to-the-moon{
   display: flex;
   flex-direction: column;
-  ali: center;
+  align-items: center;
   background-color: $main;
   #to-the-moon-deal-1{
     background-color: $light-grey;
     display: flex;;
     flex-direction: column;
     align-items: center;
-    height: 40%;
     margin: 50px;
     width:80%;
   #to-the-moon-deal-1-banner{
     color:$main;
-    font-size: 75px;
+    font-size: 40px;
+    padding: 50px;
     font-weight: bold;
   }
   #to-the-moon-deal-1-price{
     color: $main;
-    font-size: 125px;
+    font-size: 80px;
+    padding: 20px;
     text-decoration: underline;
   }
   #to-the-moon-deal-1-content{
     color: $main;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
-    padding:15
+    padding:20px
       }
   }
   #to-the-moon-deal-2{
@@ -74,31 +49,49 @@ body{
     display: flex;;
     flex-direction: column;
     align-items: center;
-    height: 40%;
     margin: 50px;
     width:80%;
     #to-the-moon-deal-2-banner{
       color:$main;
-      font-size: 75px;
+      font-size: 40px;
+      padding: 50px;
       font-weight: bold;
-    }
+      }
     #to-the-moon-deal-2-price{
       color: $main;
-      font-size: 125px;
+      font-size: 80px;
+      padding: 20px;
       text-decoration: underline;
-    }
+      }
     #to-the-moon-deal-2-content{
-      color: $main;
-    font-size: 50px;
+     color: $main;
+    font-size: 30px;
     text-align: center;
-    padding:15
+    padding:20px
     }
   }
 }
 
 #more-deals{
   background-color: $light-blue;
-  height:100px;
+  display: flex;
+  justify-content: center;
+  #more-deals-text{
+    color:$main;
+    font-size: 30px;
+    padding:10px;
+  }
+  #more-deals-button{
+    padding:10px;
+  }
 
+
+}
+
+#footer{
+  background-color: grey;
+  font-size: 30px;
+  text-align: center;
+  padding:30px;
 
 }
