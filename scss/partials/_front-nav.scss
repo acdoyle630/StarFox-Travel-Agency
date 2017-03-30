@@ -1,43 +1,82 @@
 #front-nav{
-
   display:flex;
   background-color: $grey;
   justify-content: space-around;
   @media #{$medium}{
-    background-color: $light-blue;
+    background: linear-gradient(to bottom, black 0%,$light-blue 92%,#000000 50%,white 50%,white 100%);
     flex-direction: column;
   }
   #front-nav-image{
     display: flex;
     font-size: 60px;
     color: $light-blue;
+    @media #{$medium}{
+      color:transparent;
+    }
     #front-nav-logo{
       height:60px;
       -webkit-filter: invert(100%);
       @media #{$medium}{
-        height: 120px;
-        padding-left: 50%
+        height: 200px;
+        padding-left: 40%
       }
     }
   }
-  #hamburger{
+  #front-nav-medium-text-logo{
+    @media#{$medium}{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom:3%;
+  }
+    #front-nav-medium-logo{
+      @media#{$small}{
+        visibility: hidden;
+      }
+      @media#{$medium}{
+        text-align: center;
+        font-size: 35px;
+        margin-right: 10px;
+        font-weight:bold;      }
+  }
+  #front-nav-medium-logo-2{
+    @media#{$small}{
+      visibility: hidden;
+    }
+    @media#{$medium}{
+      font-size: 35px;
+    }
+  }
+}
+   #hamburger{
     display: flex;
     height:60px;
     margin:5px;
+    @media#{$medium}{
+      visibility: hidden;
+    }
+  }
+  #front-nav-dropdown{
+    height:1px;
   }
   #front-nav-dropdown-bar{
+    @media#{$small}{
+    visibility: hidden;
+  }
     @media #{$medium}{
-      align-content: center;
       display: flex;
+      align-content: center;
       flex-direction: row;
       justify-content: space-around;
       background-color:black;
       color: $main;
-      width: 80%;
       visibility: initial;
-      padding-left:20%;
-      padding-right:20%;
-      font-size: 30px;
+      font-size: 25px;
+      margin-left: 3%;
+      margin-right:3%;
+      border-radius: 7px;
+      padding-top: 2%;
+      padding-bottom:2%;
     }
   }
 }
